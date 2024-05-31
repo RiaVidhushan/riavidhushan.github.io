@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I've Learned </title>
+    <style>
+        /* Basic styling for the header */
+        header {
+            background-color:lightpink;
+            color:White;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        /* Styling for the sections */
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        /* Styling for the navigation buttons */
+        .nav-btn {
+            background-color:Pink;
+            color:Black;
+            border: White;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my E-Portfolio! Today I’ll be showcasing my work from BTT101. </h1>
+        <p>Explore the sections below</p>
+    </header>
+
+    <section id="about">
+        <h2>What I've Learned</h2>
+        <p>Over these past couple of months,my education has immersed me in the details of the business world. Tasks such as 
+website designing through Wix, files management on D2L and exploring the world wide web have left 
+a positive impact on my lifelong skills. My favorite task was creating a website because I got 
+the opportunity to know what it feels like to own a business through a website. The responsibility and amount of 
+planning it takes really opened my eyes to how much advertising a business takes to attract an audience. 
+Take a look at my work throughout this semester! </p>
+       <img src="https://img.freepik.com/premium-photo/fiery-orange-sunset-sky-warm-light-with-clouds-beautiful-background_9511-97.jpg?w=740" alt="alternatetext"height=400>
+    </section> 
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are my Artifacts!</p>
+     	<a href="https://docs.google.com/document/d/1hCZLyqZycHUxngM4JLcWClbGB8-pqlJ6g6T1FcwZSR8/edit">Click Here for Artifacts</a>
+    </section>
+
+    <section id="My Resume">
+        <h2>Resume</h2>
+        <p>Read about the work I specialize in!</p>
+        <a href="https://docs.google.com/document/d/1DmbOOV3b6Lsx59R4T2e7EAyttY3O2ej5cTH1M3vgSd0/edit">Click Here for Resume</a>
+
+    </section>
+
+    <!-- Navigation buttons -->
+    <div>
+        <button class="nav-btn" onclick="scrollToSection('about')">About</button>
+        <button class="nav-btn" onclick="scrollToSection('portfolio')">Portfolio</button>
+        <button class="nav-btn" onclick="scrollToSection('Resume')">Resume</button>
+    </div>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+
+</P> <Center> Here are my Reflections! 
+<center><a href="https://docs.google.com/document/d/1L3zG65Wo7NqsPYcBip9RhvoTNg9LJUllH5FfbHdz1XY/edit">Click Here for Relflections</a>
+<br>
+	<Center>Thank you!
+<br>
+<br>
